@@ -1,0 +1,66 @@
+body {
+   font-family: Arial, sans-serif;
+   text-align: center;
+   background-color: #f4f4f4;
+   margin: 0;
+   padding: 20px;
+}
+
+.game-container {
+   max-width: 600px;
+   margin: auto;
+   padding: 20px;
+   background-color: #fff;
+   border-radius: 10px;
+   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.choices img {
+   width: 150px;
+   margin: 20px;
+   cursor: pointer;
+   transition: transform 0.2s ease;
+}
+
+.choices img:hover {
+   transform: scale(1.2);
+}
+
+.result {
+   margin: 20px;
+   font-size: 24px;
+   font-weight: bold;
+   min-height: 100px;
+}
+
+#computerChoice {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   min-height: 150px;
+}
+
+#computerImage {
+   width: 150px;
+   vertical-align: middle;
+   margin-left: 10px;
+}
+
+#playAgain {
+   padding: 10px 20px;
+   font-size: 16px;
+   cursor: pointer;
+   border: none;
+   background-color: rgb(25, 25, 163);
+   color: white;
+   border-radius: 8px;
+   display: none;
+}
+
+#playAgain:hover {
+   background-color: rgb(31, 31, 116);
+}
+
+.hidden {
+   display: none;
+}
